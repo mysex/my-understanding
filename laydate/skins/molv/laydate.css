@@ -1,0 +1,213 @@
+﻿/** 
+ 
+ @Name： laydate皮肤：墨绿
+ @Author：贤心
+ @Site：http://sentsin.com/layui/laydate
+ 
+**/
+
+.laydate-icon {
+    border: 1px solid #ccc;
+    background-image: url(icon.png)
+}
+
+.laydate_body .laydate_bottom #laydate_hms,
+.laydate_body .laydate_time {
+    border: 1px solid #ccc;
+}
+
+.laydate_body .laydate_box,
+.laydate_body .laydate_ym .laydate_yms,
+.laydate_body .laydate_time {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .1);
+}
+
+/*日..六 时间  字体颜色*/
+.laydate_body .laydate_box {
+    border-top: none;
+    border-bottom: none;
+    background-color: #fff;
+    color: #05801c;
+}
+
+.laydate_body .laydate_box input {
+    background: none !important;
+    color: #fff;
+}
+
+.laydate_body .laydate_box .laydate_void {
+    color: #00E8D7 !important;
+}
+
+/*清空 今天 确定 字体颜色*/
+.laydate_body .laydate_box a, .laydate_body .laydate_box a:hover {
+    color: #05801c;
+}
+
+.laydate_body .laydate_box a:hover {
+    color: #666;
+}
+
+/*日期选中时的颜色*/
+.laydate_body .laydate_click {
+    background-color: #089e24 !important;
+    color: #fff !important;
+}
+
+/*日期表头的颜色*/
+.laydate_body .laydate_top {
+    border-top: 1px solid #089e24;
+    background-color: #089e24
+}
+
+/*年月的背景颜色*/
+.laydate_body .laydate_ym {
+    border: 1px solid #089e24;
+    background-color: #089e24;
+}
+
+/*下拉年月的显示背景及边框*/
+.laydate_body .laydate_ym .laydate_yms {
+    border: 1px solid #089e24;
+    background-color: #089e24;
+    color: #fff;
+}
+
+.laydate_body .laydate_y .laydate_yms a {
+    border-bottom: 1px solid #089e24;
+}
+
+.laydate_body .laydate_y .laydate_yms .laydate_chdown {
+    border-top: 1px solid #089e24;
+    border-bottom: none;
+}
+
+/*白色三角的边框颜色*/
+.laydate_body .laydate_choose {
+    border-left: 1px solid #089e24;
+}
+
+.laydate_body .laydate_chprev {
+    border-left: none;
+    border-right: 1px solid #089e24;
+}
+
+/*白色三角包移入时颜色的变化*/
+.laydate_body .laydate_choose:hover,
+.laydate_body .laydate_y .laydate_yms a:hover {
+    background-color: #13c534;
+}
+
+.laydate_body .laydate_chtop cite {
+    border-bottom-color: #fff;
+}
+
+.laydate_body .laydate_chdown cite, .laydate_body .laydate_ym label {
+    border-top-color: #fff;
+}
+
+.laydate_body .laydate_chprev cite {
+    border-right-style: solid;
+    border-right-color: #fff;
+}
+
+.laydate_body .laydate_chnext cite {
+    border-left-style: solid;
+    border-left-color: #fff;
+}
+
+.laydate_body .laydate_table {
+    width: 240px !important;
+    margin: 0 !important;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+}
+
+/*当前月的字体颜色*/
+.laydate_body .laydate_table td {
+    border: none;
+    height: 21px !important;
+    line-height: 21px !important;
+    background-color: #fff;
+    color: #05801c;
+}
+
+/*上一个月/下一个日期的颜色*/
+.laydate_body .laydate_table .laydate_nothis {
+    color: #999;
+}
+
+.laydate_body .laydate_table thead {
+    border-bottom: 1px solid #ccc;
+    height: 21px !important;
+    line-height: 21px !important;
+}
+
+.laydate_body .laydate_table thead th {
+}
+
+.laydate_body .laydate_bottom {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.laydate_body .laydate_bottom #laydate_hms {
+    background-color: #fff;
+}
+
+.laydate_body .laydate_time {
+    background-color: #fff;
+}
+
+.laydate_body .laydate_time1 {
+    width: 226px !important;
+    height: 152px !important;
+}
+
+.laydate_body .laydate_bottom .laydate_sj {
+    width: 31px !important;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/*时间输入框里的时间的颜色 05801c*/
+.laydate_body .laydate_bottom input {
+    background-color: #fff;
+    color: #05801c;
+}
+
+.laydate_body .laydate_bottom .laydte_hsmtex {
+    border-bottom: 1px solid #ccc;
+}
+
+.laydate_body .laydate_bottom .laydate_btn {
+    border-right: 1px solid #ccc;
+}
+
+.laydate_body .laydate_bottom .laydate_v {
+    color: #999
+}
+
+.laydate_body .laydate_bottom .laydate_btn a {
+    border: 1px solid #ccc;
+    border-right: none;
+    background-color: #fff;
+}
+
+/*清空-今天-确定 按钮的移入*/
+.laydate_body .laydate_bottom .laydate_btn a:hover {
+    background-color: #F6F6F6;
+    color: #05801c;
+}
+
+.laydate_body .laydate_m .laydate_yms span:hover,
+.laydate_body .laydate_time .laydate_hmsno span:hover,
+.laydate_body .laydate_y .laydate_yms ul li:hover,
+    /*日期 鼠标移入时显示的颜色*/
+.laydate_body .laydate_table td:hover {
+    background-color: #13c534;
+    color: #fff;
+}
+
+
